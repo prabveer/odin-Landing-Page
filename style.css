@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 24px;
+}
+.Logo {
+    font-weight: bolder;
+}
+.HeaderLinks {
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.body {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 48px;
+    align-items: center;
+}
+.subbody {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    margin: 10px;
+    align-items: start;
+}
+.bodyHead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 12px 0;
+}
+.bodySub {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 12px 0;
+}
+.bodyImage {
+    display: flex;
+    background-color: gray;
+    color: white;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 12px;
+}
